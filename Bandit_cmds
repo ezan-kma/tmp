@@ -1,0 +1,108 @@
+Bandit 00:
+cmd : 
+
+Bandit 01:
+cmd : 
+
+Bandit 02:
+cmd : 
+
+Bandit 03:
+cmd : find / | grep inhere/[.]
+
+Bandit 04:
+cmd : for elt in $(find /home/bandit4/ | grep inhere); do file $elt; done
+
+Bandit 05:
+cmd : for elt in $(find /home/bandit5/inhere/ -size 1033c -and -not -executable); do file $elt; done
+
+Bandit 06:
+cmd : find / -size 33c -user bandit7 -group bandit6
+
+Bandit 07:
+cmd : grep "millionth.*" data.txt
+
+Bandit 08:
+cmd : sort data.txt | uniq -u
+
+Bandit 09:
+cmd : strings data.txt | grep "=.*"
+
+Bandit 10:
+cmd : base64 -d data.txt
+
+Bandit 11:
+cmd : 
+
+Bandit 12:
+cmd : 
+
+Bandit 13:
+cmd : 
+
+Bandit 14:
+cmd : 
+
+Bandit 15:
+cmd : 
+
+Bandit 16:
+cmd : 
+
+Bandit 17:
+cmd : 
+
+Bandit 18:
+cmd : 
+
+Bandit 19:
+cmd : 
+
+Bandit 20:
+cmd : 
+
+Bandit 21:
+cmd : 
+
+Bandit 22:
+cmd : 
+
+Bandit 23:
+cmd : 
+
+Bandit 24:
+cmd : 
+
+Bandit 25:
+cmd : 
+
+Bandit 26:
+cmd : 
+
+Bandit 27:
+cmd : 
+
+Bandit 28:
+cmd : 
+
+Bandit 29:
+cmd : 
+
+Bandit 30:
+cmd : 
+
+Bandit 31:
+cmd : 
+
+Bandit 32:
+cmd : 
+
+Bandit 33:
+cmd : 
+
+Bandit 34:
+cmd : 
+
+Bandit 35:
+cmd : 
+
